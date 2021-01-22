@@ -106,6 +106,9 @@ class _PharmaListState extends State<PharmaList> {
                         "DcolPharma",
                         style: TextStyle(color: Colors.white, fontSize: 24),
 
+                         
+                         
+
                       ),
 
 
@@ -224,7 +227,8 @@ class _PharmaListState extends State<PharmaList> {
                     SizedBox(
                       width:5,
                     ),
-
+                    (pharmaLists[index] ['numero']
+                   ), 
                   ],
                 )
               ],

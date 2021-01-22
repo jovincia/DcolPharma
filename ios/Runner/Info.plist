@@ -41,5 +41,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key> NSlocationWhenInUsageDescription</key>
+	<srting> The app needs location activate when is open.</srting>
 </dict>
 </plist>
