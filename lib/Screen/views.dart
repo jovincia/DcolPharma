@@ -107,10 +107,6 @@ class _PharmaListState extends State<PharmaList> {
                       Text(
                         "DcolPharma",
                         style: TextStyle(color: Colors.white, fontSize: 24),
-
-                         
-                         
-
                       ),
 
 
@@ -134,7 +130,7 @@ class _PharmaListState extends State<PharmaList> {
                           cursorColor: Theme.of(context).primaryColor,
                           style: dropdownMenuItem,
                           decoration: InputDecoration(
-                              hintText: "Search DrogsStore",
+                              hintText: "Search Pharmacies",
                               hintStyle: TextStyle(
                                   color: Colors.black38, fontSize: 16),
                               prefixIcon: Material(
@@ -229,7 +225,7 @@ class _PharmaListState extends State<PharmaList> {
                     SizedBox(
                       width:5,
                     ),
-                   //Text(pharmaLists[index] ['numero'],),
+                   Text(pharmaLists[index] ['numero'],),
                   
                   ],
                 )
