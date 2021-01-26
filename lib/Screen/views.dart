@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 //import 'package:cached_network_image/cached_network_image.dart';
 
 class PharmaList extends StatefulWidget {
@@ -11,6 +12,7 @@ class PharmaList extends StatefulWidget {
 
 
 class _PharmaListState extends State<PharmaList> {
+  
   final TextStyle dropdownMenuItem =
   TextStyle(color: Colors.black, fontSize: 18);
   final primary = Colors.green;
@@ -70,7 +72,7 @@ class _PharmaListState extends State<PharmaList> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       backgroundColor: Color(0xfff0f0f0),
       body: SingleChildScrollView(
         child: Container(
@@ -227,8 +229,8 @@ class _PharmaListState extends State<PharmaList> {
                     SizedBox(
                       width:5,
                     ),
-                    (pharmaLists[index] ['numero']
-                   ), 
+                   //Text(pharmaLists[index] ['numero'],),
+                  
                   ],
                 )
               ],
