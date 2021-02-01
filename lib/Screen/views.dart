@@ -18,9 +18,22 @@ class _PharmaListState extends State<PharmaList> {
   final primary = Colors.green;
   final secondary = Color(0xfff29a94);
 
-  final List<Map> pharmaLists = [
+  @override
+  Widget build(BuildContext context) {
+
+
+
+   
+    
+    // TODO: implement build
+    //throw UnimplementedError();
+  }
+
+  
+
+  /* final List<Map> pharmaLists = [
     {
-      "name" : listes.name,
+      "name" : "lists.name",
             "numero" : 11111111,
             "location" : "location 1",
             "logoText" : "https://cdn.pixabay.com/photo/2017/01/31/13/14/animal-2023924_960_720.png"
@@ -237,6 +250,7 @@ class _PharmaListState extends State<PharmaList> {
             ),
           );
         }
+         */
       }
       
 

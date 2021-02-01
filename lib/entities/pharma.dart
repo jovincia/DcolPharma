@@ -1,3 +1,4 @@
+
 class Pharma{
   String name;
   String location;
@@ -7,7 +8,7 @@ class Pharma{
 
   Pharma(this.name,this.location,this.numero,this.departement,this.arrondissement);
 
-  Pharma.fromJson(Map<String,dynamic> json){
+  Pharma.fromJson(Map<dynamic,dynamic> json){
     
     name=json['name'];
     location=json['location'];
